@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-KE">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101827">
-  <meta name="description" content="Discover events, book tickets and support meaningful causes with ZenLipa.">
-  <title>ZenLipa — Events, Tickets & Fundraising</title>
+  <meta name="description" content="ZenPay Kenya helps people discover events, book tickets and support meaningful causes.">
+  <title>ZenPay Kenya — Events, Tickets & Fundraising</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -47,13 +47,13 @@
   </section>
   <section class="section" id="causes"><div class="section-head"><div><span class="eyebrow">COMMUNITY IMPACT</span><h2>Causes to support</h2><p>Sample fundraising campaigns for the preview.</p></div></div><div class="causes-grid" id="causesGrid"></div></section>
 
-  <section class="organiser-band"><div><span class="eyebrow">BRING YOUR IDEA TO LIFE</span><h2>Have an event to share?</h2><p>Create an organiser profile and prepare your event for the ZenLipa community.</p></div><button class="btn btn-light" id="organiserBtn">Become an organiser ↗</button></section>
+  <section class="organiser-band"><div><span class="eyebrow">BRING YOUR IDEA TO LIFE</span><h2>Have an event to share?</h2><p>Create an organiser profile and prepare your event for the ZenPay community.</p></div><button class="btn btn-light" id="organiserBtn">Become an organiser ↗</button></section>
 
-  <section class="section how" id="how"><span class="eyebrow">SIMPLE BY DESIGN</span><h2>How ZenLipa works</h2><div class="steps"><article><b>01</b><h3>Discover</h3><p>Explore events and community fundraisers.</p></article><article><b>02</b><h3>Take part</h3><p>Book tickets or contribute to a cause.</p></article><article><b>03</b><h3>Make impact</h3><p>Connect with people and experiences that matter.</p></article></div></section>
+  <section class="section how" id="how"><span class="eyebrow">SIMPLE BY DESIGN</span><h2>How ZenPay works</h2><div class="steps"><article><b>01</b><h3>Discover</h3><p>Explore events and community fundraisers.</p></article><article><b>02</b><h3>Take part</h3><p>Book tickets or contribute to a cause.</p></article><article><b>03</b><h3>Make impact</h3><p>Connect with people and experiences that matter.</p></article></div></section>
 </main>
-<footer><a class="brand" href="#"><span class="brand-mark">Z</span> Zen<span class="green">Lipa</span></a><p>Bringing people together, one event at a time.</p><div class="footer-links"><a href="#events">Events</a><a href="#fundraising">Fundraising</a><a href="#how">About</a></div><small>© <span id="year"></span> ZenLipa. All rights reserved.</small></footer>
+<footer><a class="brand" href="#"><span class="brand-mark">Z</span> Zen<span class="green">Lipa</span></a><p>Bringing people together, one event at a time.</p><div class="footer-links"><a href="#events">Events</a><a href="#fundraising">Fundraising</a><a href="#how">About</a></div><small>© <span id="year"></span> ZenPay. All rights reserved.</small></footer>
 
-<dialog id="authDialog"><form id="authForm" method="dialog"><button class="close" type="button" id="closeDialog">×</button><span class="eyebrow">WELCOME TO ZENLIPA</span><h2 id="authTitle">Sign in</h2><label id="nameWrap" hidden>Full name<input name="name" autocomplete="name"></label><label>Email address<input name="email" type="email" required autocomplete="email"></label><label>Password<input name="password" type="password" required minlength="8" autocomplete="current-password"></label><label id="roleWrap" hidden>Account type<select name="role"><option value="customer">Customer</option><option value="organiser">Event organiser</option></select></label><button class="btn full" id="authSubmit">Continue</button><p class="switch">New to ZenLipa? <a href="#" id="switchAuth">Create an account</a></p><p id="authMessage" class="message"></p><p class="demo-note">Preview only: accounts are not yet connected to a secure server.</p></form></dialog>
+<dialog id="authDialog"><form id="authForm" method="dialog"><button class="close" type="button" id="closeDialog">×</button><span class="eyebrow">WELCOME TO ZENLIPA</span><h2 id="authTitle">Sign in</h2><label id="nameWrap" hidden>Full name<input name="name" autocomplete="name"></label><label>Email address<input name="email" type="email" required autocomplete="email"></label><label>Password<input name="password" type="password" required minlength="8" autocomplete="current-password"></label><label id="roleWrap" hidden>Account type<select name="role"><option value="customer">Customer</option><option value="organiser">Event organiser</option></select></label><button class="btn full" id="authSubmit">Continue</button><p class="switch">New to ZenPay? <a href="#" id="switchAuth">Create an account</a></p><p id="authMessage" class="message"></p><p class="demo-note">Preview only: accounts are not yet connected to a secure server.</p></form></dialog>
 <dialog id="detailDialog"><div class="dialog-inner"><button class="close" id="closeDetail">×</button><div id="detailContent"></div></div></dialog>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script src="app.js"></script>
